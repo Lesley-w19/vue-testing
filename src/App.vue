@@ -3,7 +3,7 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <TestOne msg="Vue Testing implemetation.." />
     <HelloWorld msg="Hello World" />
-    <Hello content="Hello World" />
+    <Hello content="The hello page....." />
   </div>
 </template>
 
@@ -30,5 +30,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  /* // "test:dev": "mochapack --webpack-config webpack.config.js --require tests/unit/*.spec.js" */
+
 }
 </style>
